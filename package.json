@@ -1,0 +1,30 @@
+{
+	"name": "file-uploader-using-react-and-express",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node server.js",
+		"server": "nodemon server",
+		"client": "npm start --prefix client",    
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nazhimkalam/File-Uploader-using-React-and-Express.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nazhimkalam/File-Uploader-using-React-and-Express/issues"
+	},
+	"homepage": "https://github.com/nazhimkalam/File-Uploader-using-React-and-Express#readme",
+	"devDependencies": {
+		"concurrently": "^5.3.0",
+		"nodemon": "^2.0.4"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-fileupload": "^1.2.0"
+	}
+}
